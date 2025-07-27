@@ -17,28 +17,36 @@
     
     <header class="header">
         <div class="container header-conteiner">
-            <div class="header-tumb">
-                <a href="" class="logo"><span class="logo-decor">Web</span>Studio</a>
-                <nav class="header-nav">
-                    <ul class="nav-list">
-                        <li class=""><a href="" class="item-link">Studio</a></li>
-                        <li class=""><a href="" class="item-link">Portfolio</a></li>
-                        <li class=""><a href="" class="item-link">Contacts</a></li>
-                    </ul>
-                </nav>
-            </div>
+            
+            <a href="" class="logo"><span class="logo-decor">Web</span>Studio</a>
+            <nav class="header-nav">
+                <ul class="nav-list">
+                    <li class=""><a href="" class="item-link">Studio</a></li>
+                    <li class=""><a href="" class="item-link">Portfolio</a></li>
+                    <li class=""><a href="" class="item-link">Contacts</a></li>
+                </ul>
+            </nav>
+            
             <ul class="contact-list">
                 <li><a href="mailto:info@devstudio.com" class="header-contact">info@devstudio.com</a></li>
                 <li><a href="tel:+110001111111" class="header-contact">+11 (000) 111-11-11</a></li>
             </ul>
+
+            <button type="button" class="mobile-menu-button">
+                <svg class="mobile-menu-icon" width="24" height="24">
+                    <use href="./img/icons.svg#menu"></use>
+                </svg>
+            </button>
+
         </div>
+
     </header>
     
 
     <main>
         <section class="hero section">
             <div class="container hero-conteiner">
-                <h1 class="main-title">Effective Solutions</br>
+                <h1 class="main-title">Effective Solutions </br>
                 for Your Business</h1>
                 <button type="button" class="button hero-button">Order Service</button>
             </div>
@@ -50,39 +58,39 @@
                 <ul class="about-list">
                     <li class="card-iteam">
                         <div class="about-icon-box">
-                            <svg class="icon" width="64" height="64">
+                            <svg class="" width="64" height="64">
                                 <use href="./img/icons.svg#antenna"></use>
                             </svg>
                         </div>
-                        <h3 class="thirt-title">Strategy</h3>
+                        <h3 class="second-title custome-title">Strategy</h3>
                         <p class="text">Our goal is to identify the business
                         problem to walk away with the perfect and creative solution.</p>
                     </li>
                     <li class="card-iteam">
                         <div class="about-icon-box">
-                            <svg class="icon" width="64" height="64">
+                            <svg class="" width="64" height="64">
                                 <use href="./img/icons.svg#clock"></use>
                             </svg>
                         </div>
-                        <h3 class="thirt-title">Punctuality</h3>
+                        <h3 class="second-title custome-title">Punctuality</h3>
                         <p class="text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
                     </li>
                     <li class="card-iteam">
                         <div class="about-icon-box">
-                            <svg class="icon" width="64" height="64">
+                            <svg class="" width="64" height="64">
                                 <use href="./img/icons.svg#diagram"></use>
                             </svg>
                         </div>
-                        <h3 class="thirt-title">Diligence</h3>
+                        <h3 class="second-title custome-title">Diligence</h3>
                         <p class="text">Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
                     </li>
                     <li class="card-iteam">
                         <div class="about-icon-box">
-                            <svg class="icon" width="64" height="64">
+                            <svg class="" width="64" height="64">
                                 <use href="./img/icons.svg#astronaut"></use>
                             </svg>
                         </div>
-                        <h3 class="thirt-title">Technologies</h3>
+                        <h3 class="second-title custome-title">Technologies</h3>
                         <p class="text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                     </li>
                 </ul>
@@ -90,7 +98,7 @@
         </section>
 
         <section class="section our-team">
-            <div class="container">
+            <div class="container our-team-conteiner">
                 <h2 class="second-title">Our Team</h2>
                 <ul class="our-team-list">
                     <li class="our-team-item card-iteam">
@@ -320,8 +328,9 @@
                         </a>
                     </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
+        
     </main>
 
     <footer class="footer">
@@ -335,22 +344,22 @@
                 <h3 class="thirt-title footer-tittle">Social media</h3>
                 <ul class="socil-list">
                 <li class="social-iteam footer-social-iteam">
-                    <svg class="icon" width="20" height="20">
+                    <svg class="icon footer-icon">
                         <use href="./img/icons.svg#instagram"></use>
                     </svg>
                 </li>
                 <li class="social-iteam footer-social-iteam">
-                    <svg class="icon" width="20" height="20">
+                    <svg class="icon footer-icon">
                         <use href="./img/icons.svg#twitter"></use>
                     </svg>
                 </li>
                 <li class="social-iteam footer-social-iteam">
-                    <svg class="icon" width="20" height="20">
+                    <svg class="icon footer-icon">
                         <use href="./img/icons.svg#facebook"></use>
                     </svg>
                 </li>
                 <li class="social-iteam footer-social-iteam">
-                    <svg class="icon" width="20" height="20">
+                    <svg class="icon footer-icon">
                         <use href="./img/icons.svg#linkedin"></use>
                     </svg>
                 </li>
@@ -358,13 +367,14 @@
             </div>
 
             <div class="footer-tumb">
-                <form class="footer-form">
+                <form class="footer-form ">
                     <label class="footer-label">
                         <span class="thirt-title footer-tittle">Subscribe</span>
                         <input type="email" name="email" placeholder="E-mail" class="footer-placeholder">
                     </label>
+
                     <button type="submit" class="button footer-button">Subscribe
-                        <svg class="icon footer-btn-icon" width="24" height="24">
+                        <svg class="icon footer-btn-icon">
                             <use href="./img/icons.svg#telegram"></use>
                         </svg>
                     </button>
@@ -374,7 +384,7 @@
         </div>
     </footer>
 
-    <div class="modal-overlay is-open">
+    <div class="modal-overlay ">
         <div class="modal">
             
             <button type="button" class="modal-btn">
@@ -422,6 +432,52 @@
             </form>
         </div>
     </div>
+
+    <div class="mobile-menu ">
+        <nav class="mobile-nav">
+            
+            <button type="button" class="modal-btn mobile-btn">
+                <svg class="modal-icon-close" width="24" height="24">
+                    <use href="./img/icons.svg#close"></use>
+                </svg>
+            </button>
+
+            <ul class="mobile-list">
+                <li class=""><a href="" class="mobile-link">Studio</a></li>
+                <li class=""><a href="" class="mobile-link">Portfolio</a></li>
+                <li class=""><a href="" class="mobile-link">Contacts</a></li>
+            </ul>
+
+            <ul class="mobile-contact-list">
+                <li><a href="mailto:info@devstudio.com" class="mobile-contact">info@devstudio.com</a></li>
+                <li><a href="tel:+110001111111" class="mobile-contact">+11 (000) 111-11-11</a></li>
+            </ul>
+
+            <ul class="socil-list mobile-social-list">
+                <li class="social-iteam">
+                    <svg class="mobile-menu-icon">
+                        <use href="./img/icons.svg#instagram"></use>
+                    </svg>
+                </li>
+                <li class="social-iteam">
+                    <svg class="mobile-menu-icon">
+                        <use href="./img/icons.svg#twitter"></use>
+                    </svg>
+                </li>
+                <li class="social-iteam">
+                    <svg class="mobile-menu-icon">
+                        <use href="./img/icons.svg#facebook"></use>
+                    </svg>
+                </li>
+                <li class="social-iteam">
+                    <svg class="mobile-menu-icon">
+                        <use href="./img/icons.svg#linkedin"></use>
+                    </svg>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
 
 </body>
 </html>
