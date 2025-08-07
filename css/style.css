@@ -267,7 +267,7 @@ header {
 .hero {
     background-color: #2E2F42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7)), 
-                    url(/img/People-office.jpg);
+                    url(./img/People-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -276,7 +276,7 @@ header {
 @media (min-resolution: 2x) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
-            url(/img/People-office@2x.jpg);
+            url(./img/People-office@2x.jpg);
     }
 }
 
